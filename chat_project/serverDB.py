@@ -20,6 +20,7 @@ from datetime import datetime
 from typing import Dict, Optional
 import logging
 from database import MessageDatabase
+from encrypt import encrypt_message, decrypt_message
 
 # Configure logging
 logging.basicConfig(
@@ -160,14 +161,14 @@ class ChatServer:
                 # Send complete history as one message
                 complete_history = "".join(history_parts)
                 try:
-                    client_socket.send(complete_history.encode())
+                    client_socket.send(encrypt_message(complete_history))
                 except Exception as e:
                     logging.error(f"Failed to send history to {username}: {e}")
             else:
                 # No previous messages
                 no_history = "[SERVER] No previous messages found.\n"
                 try:
-                    client_socket.send(no_history.encode())
+                    client_socket.send(encrypt_message(no_history))
                 except:
                     pass
                 
@@ -195,7 +196,7 @@ class ChatServer:
             for username, client_socket in self.clients.items():
                 if username != sender:  # Don't send back to sender
                     try:
-                        client_socket.send(message.encode())
+                        client_socket.send(encrypt_message(message))
                     except Exception as e:
                         logging.warning(f"Failed to send to {username}: {e}")
                         disconnected.append(username)
@@ -218,11 +219,11 @@ class ChatServer:
                     
                     # Send to target (ensure newline)
                     private_msg = f"[PRIVATE] {sender}: {message}\n"
-                    self.clients[target_user].send(private_msg.encode())
+                    self.clients[target_user].send(encrypt_message(private_msg))
                     
                     # Confirm to sender (ensure newline)
                     confirmation = f"[SENT] Private message to {target_user}\n"
-                    self.clients[sender].send(confirmation.encode())
+                    self.clients[sender].send(encrypt_message(confirmation))
                     
                     logging.info(f"Private: {sender} -> {target_user}")
                     
@@ -230,7 +231,7 @@ class ChatServer:
                     logging.error(f"Failed to send private message: {e}")
                     error_msg = f"[ERROR] Could not deliver message to {target_user}\n"
                     try:
-                        self.clients[sender].send(error_msg.encode())
+                        self.clients[sender].send(encrypt_message(error_msg))
                     except:
                         pass
             else:
@@ -239,7 +240,7 @@ class ChatServer:
                 
                 error_msg = f"[ERROR] User '{target_user}' is not online. Message saved and will be delivered when they reconnect.\n"
                 try:
-                    self.clients[sender].send(error_msg.encode())
+                    self.clients[sender].send(encrypt_message(error_msg))
                 except:
                     pass
     
@@ -294,11 +295,18 @@ class ChatServer:
                 try:
                     # Receive message with timeout for connection checking
                     client_socket.settimeout(300)  # 5 minute timeout
-                    msg = client_socket.recv(1024).decode().strip()
+                    data = client_socket.recv(1024)
                     
-                    if not msg:
+                    if not data:
                         # Empty message = client disconnected
                         break
+                    
+                    # Decrypt the message
+                    try:
+                        msg = decrypt_message(data).strip()
+                    except:
+                        # If decryption fails, treat as plain (for compatibility)
+                        msg = data.decode().strip()
                     
                     # Parse and route message
                     self.route_message(username, msg)
@@ -345,13 +353,13 @@ class ChatServer:
                 self.private_message(target, msg_content, username)
             else:
                 error = "[ERROR] Usage: /private <username> <message>\n"
-                self.clients[username].send(error.encode())
+                self.clients[username].send(encrypt_message(error))
         
         # Command: /users
         elif message == "/users":
             users = self.get_online_users()
             response = f"[SERVER] Online users ({len(users)}): {', '.join(users)}\n"
-            self.clients[username].send(response.encode())
+            self.clients[username].send(encrypt_message(response))
         
         # Command: /help
         elif message == "/help":
@@ -363,7 +371,7 @@ class ChatServer:
                 "Type normally for group chat\n"
                 "--------------------------\n"
             )
-            self.clients[username].send(help_text.encode())
+            self.clients[username].send(encrypt_message(help_text))
         
         # Group message
         else:

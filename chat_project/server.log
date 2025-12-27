@@ -141,3 +141,64 @@
 2025-12-27 15:07:40,104 - WARNING - Connection reset by yassin
 2025-12-27 15:07:40,106 - INFO - << yassin disconnected (Active: 1)
 2025-12-27 15:07:45,962 - WARNING - Connection reset by mona
+2025-12-27 18:38:24,238 - INFO - [DB] Database initialized: chat_messages.db
+2025-12-27 18:38:24,238 - INFO - [OK] Server initialized
+2025-12-27 18:38:24,238 - INFO - ======================================================================
+2025-12-27 18:38:24,238 - INFO - [START] MULTI-CLIENT CHAT SERVER STARTED
+2025-12-27 18:38:24,238 - INFO - [NET] Network: Wired (Ethernet) + Wireless (Wi-Fi) Support
+2025-12-27 18:38:24,238 - INFO - [HOST] Listening on: 0.0.0.0:5000
+2025-12-27 18:38:24,238 - INFO - [CAPACITY] Maximum Clients: 100
+2025-12-27 18:38:24,238 - INFO - [ARCH] Architecture: Multi-threaded Server
+2025-12-27 18:38:24,238 - INFO - [TEAM] Team: Mousa & Shahd (Server Architecture)
+2025-12-27 18:38:24,238 - INFO - ======================================================================
+2025-12-27 18:38:39,378 - INFO - New connection from 127.0.0.1:58264
+2025-12-27 18:38:43,185 - INFO - >> mohamed connected (Active: 1/100)
+2025-12-27 18:38:43,288 - INFO - [DB] Retrieved 8 messages for mohamed
+2025-12-27 18:38:56,249 - WARNING - Connection reset by mohamed
+2025-12-27 18:38:56,255 - INFO - << mohamed disconnected (Active: 0)
+2025-12-27 19:07:06,412 - INFO - [DB] Database initialized: chat_messages.db
+2025-12-27 19:07:06,412 - INFO - [OK] Server initialized
+2025-12-27 19:07:06,413 - INFO - ======================================================================
+2025-12-27 19:07:06,414 - INFO - [START] MULTI-CLIENT CHAT SERVER STARTED
+2025-12-27 19:07:06,414 - INFO - [NET] Network: Wired (Ethernet) + Wireless (Wi-Fi) Support
+2025-12-27 19:07:06,414 - INFO - [HOST] Listening on: 0.0.0.0:5000
+2025-12-27 19:07:06,414 - INFO - [CAPACITY] Maximum Clients: 100
+2025-12-27 19:07:06,414 - INFO - [ARCH] Architecture: Multi-threaded Server
+2025-12-27 19:07:06,414 - INFO - [TEAM] Team: Mousa & Shahd (Server Architecture)
+2025-12-27 19:07:06,414 - INFO - ======================================================================
+2025-12-27 19:07:12,399 - INFO - New connection from 127.0.0.1:56490
+2025-12-27 19:07:17,541 - INFO - >> mohamed connected (Active: 1/100)
+2025-12-27 19:07:17,644 - INFO - [DB] Retrieved 8 messages for mohamed
+2025-12-27 19:07:27,340 - INFO - Group: mohamed: hi...
+2025-12-27 19:07:37,836 - INFO - New connection from 127.0.0.1:56494
+2025-12-27 19:07:40,430 - INFO - >> ahmed connected (Active: 2/100)
+2025-12-27 19:07:40,545 - INFO - [DB] Retrieved 10 messages for ahmed
+2025-12-27 19:07:46,812 - INFO - Group: ahmed: hey...
+2025-12-27 19:10:03,055 - INFO - Private: mohamed -> ahmed
+2025-12-27 19:10:18,534 - WARNING - Connection reset by ahmed
+2025-12-27 19:10:18,534 - INFO - << ahmed disconnected (Active: 1)
+2025-12-27 19:10:24,913 - WARNING - Connection reset by mohamed
+2025-12-27 19:10:26,824 - INFO - New connection from 127.0.0.1:57769
+2025-12-27 19:11:20,476 - INFO - New connection from 127.0.0.1:53683
+2025-12-27 19:11:43,797 - INFO - New connection from 127.0.0.1:49337
+2025-12-27 19:22:33,098 - INFO - [DB] Database initialized: chat_messages.db
+2025-12-27 19:22:33,098 - INFO - [OK] Server initialized
+2025-12-27 19:22:33,098 - INFO - ======================================================================
+2025-12-27 19:22:33,098 - INFO - [START] MULTI-CLIENT CHAT SERVER STARTED
+2025-12-27 19:22:33,098 - INFO - [NET] Network: Wired (Ethernet) + Wireless (Wi-Fi) Support
+2025-12-27 19:22:33,098 - INFO - [HOST] Listening on: 0.0.0.0:5000
+2025-12-27 19:22:33,098 - INFO - [CAPACITY] Maximum Clients: 100
+2025-12-27 19:22:33,098 - INFO - [ARCH] Architecture: Multi-threaded Server
+2025-12-27 19:22:33,098 - INFO - [TEAM] Team: Mousa & Shahd (Server Architecture)
+2025-12-27 19:22:33,098 - INFO - ======================================================================
+2025-12-27 19:22:37,040 - INFO - New connection from 127.0.0.1:53622
+2025-12-27 19:22:40,412 - INFO - >> mohamed connected (Active: 1/100)
+2025-12-27 19:22:40,523 - INFO - [DB] Retrieved 11 messages for mohamed
+2025-12-27 19:22:52,707 - INFO - Group: mohamed: hi...
+2025-12-27 19:23:05,273 - INFO - New connection from 127.0.0.1:53632
+2025-12-27 19:23:07,647 - INFO - >> ahmed connected (Active: 2/100)
+2025-12-27 19:23:07,755 - INFO - [DB] Retrieved 13 messages for ahmed
+2025-12-27 19:23:36,955 - INFO - Private: mohamed -> ahmed
+2025-12-27 19:23:51,933 - WARNING - Connection reset by ahmed
+2025-12-27 19:23:51,933 - INFO - << ahmed disconnected (Active: 1)
+2025-12-27 19:23:56,513 - WARNING - Connection reset by mohamed

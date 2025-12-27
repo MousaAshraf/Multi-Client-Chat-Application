@@ -17,6 +17,7 @@ Commands:
 import socket
 import threading
 import sys
+from encrypt import encrypt_message, decrypt_message
 
 # Server Configuration
 HOST = "127.0.0.1"  # Change to server IP for LAN testing
@@ -38,8 +39,14 @@ class ChatClient:
         while self.connected:
             try:
                 # Use larger buffer to handle history messages
-                message = self.client_socket.recv(8192).decode()
-                if message:
+                data = self.client_socket.recv(8192)
+                if data:
+                    try:
+                        message = decrypt_message(data)
+                    except:
+                        # If decryption fails, treat as plain text
+                        message = data.decode()
+                    
                     # Clear the current input line if user is typing
                     # Then print the received message
                     sys.stdout.write('\r' + ' ' * 100 + '\r')  # Clear line
@@ -114,7 +121,8 @@ class ChatClient:
         """
         try:
             if self.connected:
-                self.client_socket.send(message.encode())
+                self.client_socket.send(encrypt_message(message))
+                print(encrypt_message(message));# For debugging purposes
         except Exception as e:
             print(f"[ERROR] Failed to send message: {e}")
             self.connected = False
