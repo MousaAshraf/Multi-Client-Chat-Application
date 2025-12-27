@@ -1,0 +1,143 @@
+2025-12-27 12:46:43,543 - INFO - [OK] Server initialized
+2025-12-27 12:46:43,543 - INFO - ======================================================================
+2025-12-27 12:46:43,543 - INFO - [START] MULTI-CLIENT CHAT SERVER STARTED
+2025-12-27 12:46:43,543 - INFO - [NET] Network: Wired (Ethernet) + Wireless (Wi-Fi) Support
+2025-12-27 12:46:43,543 - INFO - [HOST] Listening on: 0.0.0.0:5000
+2025-12-27 12:46:43,543 - INFO - [CAPACITY] Maximum Clients: 100
+2025-12-27 12:46:43,543 - INFO - [ARCH] Architecture: Multi-threaded Server
+2025-12-27 12:46:43,543 - INFO - [TEAM] Team: Mousa & Shahd (Server Architecture)
+2025-12-27 12:46:43,543 - INFO - ======================================================================
+2025-12-27 12:47:55,708 - INFO - [OK] Server initialized
+2025-12-27 12:47:55,710 - INFO - ======================================================================
+2025-12-27 12:47:55,711 - INFO - [START] MULTI-CLIENT CHAT SERVER STARTED
+2025-12-27 12:47:55,711 - INFO - [NET] Network: Wired (Ethernet) + Wireless (Wi-Fi) Support
+2025-12-27 12:47:55,711 - INFO - [HOST] Listening on: 0.0.0.0:5000
+2025-12-27 12:47:55,712 - INFO - [CAPACITY] Maximum Clients: 100
+2025-12-27 12:47:55,712 - INFO - [ARCH] Architecture: Multi-threaded Server
+2025-12-27 12:47:55,712 - INFO - [TEAM] Team: Mousa & Shahd (Server Architecture)
+2025-12-27 12:47:55,712 - INFO - ======================================================================
+2025-12-27 12:49:03,357 - INFO - New connection from 127.0.0.1:63628
+2025-12-27 12:49:08,091 - INFO - >> judy connected (Active: 1/100)
+2025-12-27 12:49:25,778 - INFO - Group: judy: hi everyone...
+2025-12-27 12:49:55,904 - INFO - New connection from 127.0.0.1:58244
+2025-12-27 12:49:59,152 - INFO - >> Diga connected (Active: 2/100)
+2025-12-27 12:50:10,033 - INFO - Group: Diga: helllo ya gam3a...
+2025-12-27 12:51:47,770 - INFO - Private: judy -> Diga
+2025-12-27 12:52:22,715 - INFO - Private: Diga -> judy
+2025-12-27 12:52:34,797 - WARNING - Connection reset by Diga
+2025-12-27 12:52:34,798 - INFO - << Diga disconnected (Active: 1)
+2025-12-27 12:52:41,403 - INFO - New connection from 127.0.0.1:58109
+2025-12-27 12:55:01,496 - INFO - New connection from 127.0.0.1:64630
+2025-12-27 12:57:44,527 - INFO - New connection from 127.0.0.1:51682
+2025-12-27 14:09:53,464 - INFO - [OK] Server initialized
+2025-12-27 14:09:53,476 - INFO - ======================================================================
+2025-12-27 14:09:53,476 - INFO - [START] MULTI-CLIENT CHAT SERVER STARTED
+2025-12-27 14:09:53,478 - INFO - [NET] Network: Wired (Ethernet) + Wireless (Wi-Fi) Support
+2025-12-27 14:09:53,478 - INFO - [HOST] Listening on: 0.0.0.0:5000
+2025-12-27 14:09:53,478 - INFO - [CAPACITY] Maximum Clients: 100
+2025-12-27 14:09:53,478 - INFO - [ARCH] Architecture: Multi-threaded Server
+2025-12-27 14:09:53,479 - INFO - [TEAM] Team: Mousa & Shahd (Server Architecture)
+2025-12-27 14:09:53,479 - INFO - ======================================================================
+2025-12-27 14:10:30,840 - INFO - New connection from 127.0.0.1:64161
+2025-12-27 14:10:34,071 - INFO - >> judy connected (Active: 1/100)
+2025-12-27 14:11:19,487 - INFO - New connection from 127.0.0.1:52806
+2025-12-27 14:11:24,916 - INFO - >> mona connected (Active: 2/100)
+2025-12-27 14:11:45,575 - INFO - Group: judy: hello everyone...
+2025-12-27 14:11:58,357 - INFO - Group: mona: i am fine...
+2025-12-27 14:12:21,045 - INFO - Private: mona -> judy
+2025-12-27 14:12:39,529 - WARNING - Connection reset by mona
+2025-12-27 14:12:39,533 - INFO - << mona disconnected (Active: 1)
+2025-12-27 14:13:00,015 - INFO - New connection from 127.0.0.1:52909
+2025-12-27 14:37:51,382 - INFO - [DB] Database initialized: chat_messages.db
+2025-12-27 14:37:51,382 - INFO - [OK] Server initialized
+2025-12-27 14:37:51,385 - INFO - ======================================================================
+2025-12-27 14:37:51,386 - INFO - [START] MULTI-CLIENT CHAT SERVER STARTED
+2025-12-27 14:37:51,386 - INFO - [NET] Network: Wired (Ethernet) + Wireless (Wi-Fi) Support
+2025-12-27 14:37:51,387 - INFO - [HOST] Listening on: 0.0.0.0:5000
+2025-12-27 14:37:51,387 - INFO - [CAPACITY] Maximum Clients: 100
+2025-12-27 14:37:51,387 - INFO - [ARCH] Architecture: Multi-threaded Server
+2025-12-27 14:37:51,387 - INFO - [TEAM] Team: Mousa & Shahd (Server Architecture)
+2025-12-27 14:37:51,387 - INFO - ======================================================================
+2025-12-27 14:38:26,647 - INFO - New connection from 127.0.0.1:61023
+2025-12-27 14:38:30,665 - INFO - >> judy connected (Active: 1/100)
+2025-12-27 14:38:30,673 - INFO - [DB] Retrieved 0 messages for judy
+2025-12-27 14:38:48,760 - INFO - New connection from 127.0.0.1:56145
+2025-12-27 14:38:56,054 - INFO - >> ahmed connected (Active: 2/100)
+2025-12-27 14:38:56,059 - INFO - [DB] Retrieved 0 messages for ahmed
+2025-12-27 14:39:21,030 - INFO - Group: judy: hii ya gam3a...
+2025-12-27 14:39:30,709 - INFO - Group: ahmed: kolo 7lew...
+2025-12-27 14:39:45,171 - INFO - Private: judy -> ahmed
+2025-12-27 14:39:56,370 - WARNING - Connection reset by ahmed
+2025-12-27 14:39:56,370 - INFO - << ahmed disconnected (Active: 1)
+2025-12-27 14:40:05,655 - INFO - New connection from 127.0.0.1:61245
+2025-12-27 14:45:43,019 - WARNING - Connection reset by judy
+2025-12-27 14:46:24,202 - INFO - [DB] Database initialized: chat_messages.db
+2025-12-27 14:46:24,202 - INFO - [OK] Server initialized
+2025-12-27 14:46:24,209 - INFO - ======================================================================
+2025-12-27 14:46:24,209 - INFO - [START] MULTI-CLIENT CHAT SERVER STARTED
+2025-12-27 14:46:24,209 - INFO - [NET] Network: Wired (Ethernet) + Wireless (Wi-Fi) Support
+2025-12-27 14:46:24,209 - INFO - [HOST] Listening on: 0.0.0.0:5000
+2025-12-27 14:46:24,211 - INFO - [CAPACITY] Maximum Clients: 100
+2025-12-27 14:46:24,211 - INFO - [ARCH] Architecture: Multi-threaded Server
+2025-12-27 14:46:24,211 - INFO - [TEAM] Team: Mousa & Shahd (Server Architecture)
+2025-12-27 14:46:24,211 - INFO - ======================================================================
+2025-12-27 14:46:44,185 - INFO - New connection from 127.0.0.1:61460
+2025-12-27 14:47:00,592 - INFO - New connection from 127.0.0.1:65508
+2025-12-27 14:47:08,854 - INFO - >> judy connected (Active: 1/100)
+2025-12-27 14:47:08,962 - INFO - [DB] Retrieved 3 messages for judy
+2025-12-27 14:47:22,050 - INFO - >> mona connected (Active: 2/100)
+2025-12-27 14:47:22,163 - INFO - [DB] Retrieved 2 messages for mona
+2025-12-27 14:47:33,433 - INFO - Group: mona: mona...
+2025-12-27 14:47:44,420 - WARNING - Connection reset by mona
+2025-12-27 14:47:44,431 - INFO - << mona disconnected (Active: 1)
+2025-12-27 14:48:05,587 - INFO - New connection from 127.0.0.1:56192
+2025-12-27 14:55:50,991 - INFO - [DB] Database initialized: chat_messages.db
+2025-12-27 14:55:50,991 - INFO - [OK] Server initialized
+2025-12-27 14:55:50,995 - INFO - ======================================================================
+2025-12-27 14:55:50,997 - INFO - [START] MULTI-CLIENT CHAT SERVER STARTED
+2025-12-27 14:55:50,997 - INFO - [NET] Network: Wired (Ethernet) + Wireless (Wi-Fi) Support
+2025-12-27 14:55:50,997 - INFO - [HOST] Listening on: 0.0.0.0:5000
+2025-12-27 14:55:50,997 - INFO - [CAPACITY] Maximum Clients: 100
+2025-12-27 14:55:50,997 - INFO - [ARCH] Architecture: Multi-threaded Server
+2025-12-27 14:55:50,997 - INFO - [TEAM] Team: Mousa & Shahd (Server Architecture)
+2025-12-27 14:55:50,999 - INFO - ======================================================================
+2025-12-27 14:56:24,078 - INFO - New connection from 127.0.0.1:50162
+2025-12-27 14:56:28,565 - INFO - >> judy connected (Active: 1/100)
+2025-12-27 14:56:28,670 - INFO - [DB] Retrieved 5 messages for judy
+2025-12-27 14:57:41,973 - INFO - Group: judy: ma3ya tyb...
+2025-12-27 14:58:03,161 - INFO - New connection from 127.0.0.1:58710
+2025-12-27 14:58:10,554 - INFO - >> yassin connected (Active: 2/100)
+2025-12-27 14:58:10,660 - INFO - [DB] Retrieved 5 messages for yassin
+2025-12-27 14:58:29,043 - INFO - Group: yassin: ma3akyy akeed...
+2025-12-27 14:59:04,837 - INFO - New connection from 127.0.0.1:63166
+2025-12-27 14:59:07,797 - INFO - >> mona connected (Active: 3/100)
+2025-12-27 14:59:07,915 - INFO - [DB] Retrieved 6 messages for mona
+2025-12-27 14:59:23,420 - INFO - Group: mona: ma3kooo...
+2025-12-27 15:00:33,102 - INFO - Private: yassin -> judy
+2025-12-27 15:00:53,590 - INFO - Private: judy -> yassin
+2025-12-27 15:01:12,247 - INFO - Group: mona: ya gam3aa...
+2025-12-27 15:01:26,334 - WARNING - Connection reset by yassin
+2025-12-27 15:01:26,336 - INFO - << yassin disconnected (Active: 2)
+2025-12-27 15:01:39,442 - INFO - New connection from 127.0.0.1:50792
+2025-12-27 15:02:07,687 - INFO - New connection from 127.0.0.1:54003
+2025-12-27 15:02:27,224 - WARNING - Connection reset by mona
+2025-12-27 15:02:28,549 - WARNING - Connection reset by judy
+2025-12-27 15:02:42,828 - INFO - [DB] Database initialized: chat_messages.db
+2025-12-27 15:02:42,828 - INFO - [OK] Server initialized
+2025-12-27 15:02:42,828 - INFO - ======================================================================
+2025-12-27 15:02:42,828 - INFO - [START] MULTI-CLIENT CHAT SERVER STARTED
+2025-12-27 15:02:42,828 - INFO - [NET] Network: Wired (Ethernet) + Wireless (Wi-Fi) Support
+2025-12-27 15:02:42,836 - INFO - [HOST] Listening on: 0.0.0.0:5000
+2025-12-27 15:02:42,836 - INFO - [CAPACITY] Maximum Clients: 100
+2025-12-27 15:02:42,837 - INFO - [ARCH] Architecture: Multi-threaded Server
+2025-12-27 15:02:42,837 - INFO - [TEAM] Team: Mousa & Shahd (Server Architecture)
+2025-12-27 15:02:42,837 - INFO - ======================================================================
+2025-12-27 15:02:59,257 - INFO - New connection from 127.0.0.1:49285
+2025-12-27 15:03:01,999 - INFO - >> yassin connected (Active: 1/100)
+2025-12-27 15:03:02,104 - INFO - [DB] Retrieved 10 messages for yassin
+2025-12-27 15:03:29,708 - INFO - New connection from 127.0.0.1:54286
+2025-12-27 15:03:32,447 - INFO - >> mona connected (Active: 2/100)
+2025-12-27 15:03:32,553 - INFO - [DB] Retrieved 8 messages for mona
+2025-12-27 15:07:40,104 - WARNING - Connection reset by yassin
+2025-12-27 15:07:40,106 - INFO - << yassin disconnected (Active: 1)
+2025-12-27 15:07:45,962 - WARNING - Connection reset by mona
